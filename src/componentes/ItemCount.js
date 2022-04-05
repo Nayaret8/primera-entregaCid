@@ -1,18 +1,18 @@
 
-import react, {useState} from "react";
+import react, {useState } from "react";
 
 export const ItemCount = ({stock, initial, onAdd}) => {
 
   const [contador, setContador]= useState(1);
 
   const handlerClick = () => {
-    if (stock > initial && contador < stock) {
+    if (stock < initial && contador < stock) {
       setContador (contador + 1);
   }
   };
 
   const restador = () => {
-    if (stock < initial && contador < 0) {
+    if (stock > initial && contador < 0) {
       setContador (contador - 1)  
     }
   };

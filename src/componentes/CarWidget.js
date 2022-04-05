@@ -9,6 +9,6 @@ const CarWidget = () => {
     <IconoCarro/>
 
     );
-};
+}; 
 
 export default CarWidget

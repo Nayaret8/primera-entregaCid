@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./componentes/NavBar";
 import './Header.css';
-import logo from './img/logoTienda.jpg';
+import logo from './img/logoSun.png';
 import CarWidget from "./componentes/CarWidget";
-import ListContainer from "./componentes/ListContainer";
+import ItemListContainer from "./componentes/ItemListContainer";
 
 
 const Header = () => {
@@ -11,12 +11,12 @@ const Header = () => {
     return (
         <>
         <img src={logo} alt="logo"/>
-        <h1>Bienvenidos a nuestra tienda</h1>
+        <h1>Sun Store</h1>
         <div>
             <NavBar/>
         </div>
         <CarWidget/>
-        < ListContainer saludo='Bienvenido a mi pagina'/>
+        < ItemListContainer saludo='Bienvenido a mi pagina'/>
 
         </>
     )

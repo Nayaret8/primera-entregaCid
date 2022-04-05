@@ -4,13 +4,16 @@ import './NavBar.css';
 const NavBar = () => {
 
     return (
-        <nav>
-            <a href="#">Contenido 1</a>
-            <a href="#">Contenido 2</a>
-            <a href="#">Contenido 3</a>
-            <a href="#">Contenido 4</a>
 
-        </nav>
+        <>
+            <nav>
+                <a href="#">Strap Phone</a>
+                <a href="#">Collares</a>
+                <a href="#">Aros</a>
+                <a href="#">Pulseras</a>
+
+            </nav>
+        </>
     )
 }
 
